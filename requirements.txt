@@ -1,4 +1,4 @@
 python-telegram-bot==20.7
-requests
-apscheduler
-openai
+requests>=2.31
+apscheduler>=3.10
+openai>=1.40
