@@ -1,4 +1,1 @@
-python-telegram-bot==20.7
-requests
-apscheduler
-openai
+worker: python3 main_trade.py
