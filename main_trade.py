@@ -22,7 +22,7 @@ ALPHA_VANTAGE_API_KEY = os.environ.get("KBZDQXOH1D2LRK0J")  # Stock API
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 FINNHUB_TOKEN = os.environ.get("FINNHUB_TOKEN")
-DB_PATH = "/Users/rambodazimi/Desktop/subscriptions.db"
+DB_PATH = os.path.join("/tmp", "subscriptions.db")
 POPULAR_STOCKS = ["AAPL", "TSLA", "MSFT", "AMZN", "GOOG", "META"]
 
 # ================================
